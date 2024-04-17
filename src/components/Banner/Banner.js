@@ -152,28 +152,28 @@ const Banner = () => {
   const slides = [
     {
       imgSrc: bannerImgOne,
-      text: "Enhance Your Printing Experience",
+      text: "Teanology Tea Shop",
       Subtext:
-        "Explore our premium printers and consumables for exceptional results",
+        "Experimenting happiness through a cup of tea",
       buttonLink: "/offer",
       buttonText: "Shop Now",
     },
-    {
-      imgSrc: bannerImgOne,
-      text: "Quality Printing Solutions",
-      Subtext:
-        "Discover our wide range of printers and consumables designed for professional printing needs.",
-      buttonLink: "/shop",
-      buttonText: "About-us",
-    },
-    {
-      imgSrc: bannerImgOne,
-      text: "Efficiency Redefined",
-      Subtext:
-        "Maximize productivity with our advanced printers and high-quality consumables. ",
-      buttonLink: "/contact",
-      buttonText: "Contact-us",
-    },
+    // {
+    //   imgSrc: bannerImgOne,
+    //   text: "Quality Printing Solutions",
+    //   Subtext:
+    //     "Discover our wide range of printers and consumables designed for professional printing needs.",
+    //   buttonLink: "/shop",
+    //   buttonText: "About-us",
+    // },
+    // {
+    //   imgSrc: bannerImgOne,
+    //   text: "Efficiency Redefined",
+    //   Subtext:
+    //     "Maximize productivity with our advanced printers and high-quality consumables. ",
+    //   buttonLink: "/contact",
+    //   buttonText: "Contact-us",
+    // },
 
     // Add more slides as needed
   ];

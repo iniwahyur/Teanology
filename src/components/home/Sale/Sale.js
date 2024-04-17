@@ -18,7 +18,7 @@ const Sale = () => {
         <div className="text-left h-140 md:h-200 lg:h-260 w-full mx-4 ">
           <div className="mx-8">
             <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-6">
-              Imprimante sales
+              White Coconut Cream Tea
             </h2>
             <p className="text-lg md:text-xl lg:text-2xl mb-6">
               Up to{" "}
