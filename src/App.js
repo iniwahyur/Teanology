@@ -22,6 +22,7 @@ import Offer from "./pages/Offer/Offer";
 import Payment from "./pages/payment/Payment";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
+import Detail from './pages/Shop/Detail';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -63,6 +64,9 @@ const router = createBrowserRouter(
         {/* ==================== Header Navlink End here ===================== */}
         <Route path="/category/:category" element={<Offer />}></Route>
         <Route path="/product/:_id" element={<ProductDetails />}></Route>
+
+        <Route path="/detail/:productId" element={<Detail />}></Route>
+
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/paymentgateway" element={<Payment />}></Route>
       </Route>

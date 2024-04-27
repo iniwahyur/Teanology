@@ -62,7 +62,7 @@ const SignIn = () => {
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Get started fast with OREBI
+                Get started fast with Teanology
               </span>
               <br />
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
@@ -75,7 +75,7 @@ const SignIn = () => {
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Access all OREBI services
+                Access all Teanology services
               </span>
               <br />
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
@@ -98,7 +98,7 @@ const SignIn = () => {
           <div className="flex items-center justify-between mt-10">
             <Link to="/">
               <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
-                © OREBI
+                © Teanology
               </p>
             </Link>
             <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
@@ -175,12 +175,23 @@ const SignIn = () => {
                   )}
                 </div>
 
+                <Link className="bg-primeColor hover:bg-black text-gray-200 hover:text-white cursor-pointer w-full text-base font-medium h-10 rounded-md  duration-300" to="/">
                 <button
-                  onClick={handleSignUp}
+                  
                   className="bg-primeColor hover:bg-black text-gray-200 hover:text-white cursor-pointer w-full text-base font-medium h-10 rounded-md  duration-300"
                 >
                   Sign In
                 </button>
+                
+                </Link>
+
+
+                {/* <button
+                  
+                  className="bg-primeColor hover:bg-black text-gray-200 hover:text-white cursor-pointer w-full text-base font-medium h-10 rounded-md  duration-300"
+                >
+                  Sign In
+                </button> */}
                 <p className="text-sm text-center font-titleFont font-medium">
                   Don't have an Account?{" "}
                   <Link to="/signup">

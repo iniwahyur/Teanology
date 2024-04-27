@@ -79,7 +79,7 @@ export const navBarList = [
   },
   {
     _id: 1005,
-    title: "Journal",
+    title: "Mood Sensing",
     link: "/journal",
   },
 ];
@@ -295,7 +295,7 @@ export const paginationItems = [
   {
     _id: "201",
     img: IMPRIMANTE_PANTUM_CP2200DW,
-    productName: "Imprimante PANTUM CP2200DW",
+    productName: "Uhuy",
     price: "35.00",
     color: "Blanc",
     badge: true,
@@ -321,7 +321,7 @@ export const paginationItems = [
   {
     _id: "202",
     img: IMPRIMANTE_PANTUM_BM5100FDW,
-    productName: "IMPRIMANTE PANTUM BM5100FDW",
+    productName: "Uhuy",
     price: "450",
     color: "Blanc",
     badge: true,
